@@ -1,4 +1,4 @@
-const PRODUCTS_URL = "https://japdevdep.github.io/ecommerce-api/product/all.json";
+const listadoProductos = "https://alentornsofia.github.io/alternativo/productos.json";
 
 document.addEventListener("DOMContentLoaded", function (e) {
 
@@ -13,9 +13,9 @@ document.addEventListener("DOMContentLoaded", function (e) {
                     let productos = document.getElementById("listaproductos");
                     productos.innerHTML += `
 
-                <p>Precio: `+ datos[i].cost + ` </p>;
-                <p>Nombre:  `+ datos[i].name + `</p>;
-                <p>Descripción:  `+ datos[i].description + `</p>;
+                <p>Precio: `+ datos[i].precio + ` </p>;
+                <p>Nombre:  `+ datos[i].nombre + `</p>;
+                <p>Descripción:  `+ datos[i].tema + `</p>;
                 `
 
                 }
@@ -23,5 +23,5 @@ document.addEventListener("DOMContentLoaded", function (e) {
             });
            
     }
-    cargarProductos(PRODUCTS_URL);
+    cargarProductos(listadoProductos);
 });

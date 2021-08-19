@@ -1,55 +1,56 @@
-{   [
+{    "nombre": "Lista de productos",
+    "productos": [
     {
-        "nombre": "Los girasoles", //listo
+        "nombre": "Los girasoles", 
         "piezas": "1000",
         "precio": "$1090",
         "medidas": "70 cm x 50 cm",
         "tema": "Arte"
     },
     {
-        "nombre": "La Gioconda", //listo
+        "nombre": "La Gioconda", 
         "piezas": "1500",
         "precio": "$1290",
         "medidas": "84 cm x 59 cm",
         "tema": "Arte"
     },
     {
-        "nombre": "París",  //listo
+        "nombre": "París",  
         "piezas": "2000",
         "precio": "$1490",
         "medidas": "97.5 cm x 66.8 cm",
         "tema": "Paisaje"
     },
     {
-        "nombre": "Gatos",  //listo
+        "nombre": "Gatos",  
         "piezas": "1000",
         "precio": "$1090",
         "medidas": ""70 cm x 50 cm"",
         "tema": "Animales"
     },
     { 
-        "nombre": "Perros",  //listo
+        "nombre": "Perros",  
         "piezas": "1000",
         "precio": "$1090",
         "medidas": "70 cm x 50 cm",
         "tema": "Animales"
     }
     {
-        "nombre": "El beso", //listo
+        "nombre": "El beso",
         "piezas": "1500",
         "precio": "$1290",
         "medidas": "84 cm x 59 cm",
         "tema": "Arte"
     },
     {
-        "nombre": "Inglaterra",//listo
+        "nombre": "Inglaterra",
         "piezas": "6000",
         "precio": "$3.290",
         "medidas": "168.6 cm x 118.4 cm",
         "tema": "Paisaje"
     },
     {
-        "nombre": "Las dos Fridas",//listo
+        "nombre": "Las dos Fridas",
         "piezas": "1500",
         "precio": "1190",
         "medidas": "84 cm x 50 cm",
