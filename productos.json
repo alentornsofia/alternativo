@@ -1,4 +1,5 @@
-{    "nombre": "Lista de productos",
+{    
+    "nombre": "Lista de productos",
     "productos": [
     {
         "nombre": "Los girasoles", 
@@ -25,7 +26,7 @@
         "nombre": "Gatos",  
         "piezas": "1000",
         "precio": "$1090",
-        "medidas": ""70 cm x 50 cm"",
+        "medidas": "70 cm x 50 cm",
         "tema": "Animales"
     },
     { 
@@ -67,7 +68,7 @@
         "nombre": "Gatos",
         "piezas": "1000",
         "precio": "$1090",
-        "medidas": ""70 cm x 50 cm"",
+        "medidas": "70 cm x 50 cm",
         "tema": "Animales"
     },
     { 
