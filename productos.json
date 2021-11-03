@@ -123,7 +123,7 @@
     },
     { 
         "nombre": "Pingüinos",
-        "piezas": "1590",
+        "piezas": "1500",
         "precio": "$1490",
         "medidas": "84 cm x 50 cm",
         "imgSrc": "img/prod16.jpg",
@@ -235,7 +235,7 @@
     },
     { 
         "nombre": "Astronauta",
-        "piezas": "9700",
+        "piezas": "2000",
         "precio": "$1990",
         "medidas": "97 cm x 66 cm",
         "imgSrc": "img/prod30.jpg",
@@ -267,7 +267,7 @@
     },
     { 
         "nombre": "Kiwis",
-        "piezas": "1590",
+        "piezas": "1500",
         "precio": "$1490",
         "medidas": "84 cm x 50 cm",
         "imgSrc": "img/prod34.jpg",
