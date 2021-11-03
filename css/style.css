@@ -1,0 +1,148 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+
+.selector {
+    width: 100px;
+}
+
+#barranavegacion {
+  z-index: 100000;
+}
+
+.tituloindex {
+  font-size: 50pt;
+  font-weight: bold;
+}
+
+.contenedor {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.image {
+  
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #BF0404;
+}
+.contenedor:hover .overlay {
+  opacity: 1;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.contenedor:hover .overlay2 {
+  opacity: 1;
+}
+
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #F2B705;
+}
+.contenedor:hover .overlay3 {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 40px;
+  font-weight: lighter;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image {
+  position: relative;
+  width: 100%;
+  height: 85%; /* for IE 6 */
+  }
+  .titulo {
+  position: absolute;
+  top: 180px;
+  padding-right: 100px;
+  width: 100%;
+  text-align: right;
+  font-size: 90pt;
+  font-weight: bolder;
+  color: white;
+  }
+  .subtitulo {
+    position: absolute;
+    top: 480px;
+    padding-right: 100px;
+    width: 100%;
+    text-align: right;
+    font-size: 20pt;
+    color: white;
+    }
+    
+    .botoninicio {
+      position: absolute;
+      top: 540px;
+      left: 1680px;
+      
+      width: 100px;
+      text-align: right;
+      font-size: 20pt;
+      
+      }
+
+  .count-up .counter-label {
+    text-align:center
+  }
+  h6.counter-label{
+    font-size:20px;
+  }
+
+  .new {
+    color: #BF0404;
+    font-size: 10pt;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
