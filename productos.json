@@ -6,7 +6,7 @@
         "piezas": "1000",
         "precio": "$1090",
         "medidas": "70 cm x 50 cm",
-        "imgSrc": "img/prod1.jpg",
+        "imgSrc": "img/prod1.png",
         "tema": "Arte"
     },
     {
@@ -14,7 +14,7 @@
         "piezas": "1500",
         "precio": "$1490",
         "medidas": "84 cm x 59 cm",
-        "imgSrc": "img/prod2.jpg",
+        "imgSrc": "img/prod2.png",
         "tema": "Arte"
     },
     {
@@ -22,7 +22,7 @@
         "piezas": "2000",
         "precio": "$1990",
         "medidas": "97 cm x 66 cm",
-        "imgSrc": "img/prod3.jpg",
+        "imgSrc": "img/prod3.png",
         "tema": "Arte"
     },
     {
@@ -30,7 +30,7 @@
         "piezas": "2000",
         "precio": "$1990",
         "medidas": "97 cm x 66 cm",
-        "imgSrc": "img/prod4.jpg",
+        "imgSrc": "img/prod4.png",
         "tema": "Arte"
     },
     { 
@@ -38,7 +38,7 @@
         "piezas": "1000",
         "precio": "$1090",
         "medidas": "70 cm x 50 cm",
-        "imgSrc": "img/prod5.jpg",
+        "imgSrc": "img/prod5.png",
         "tema": "Arte"
     },
     {
@@ -46,7 +46,7 @@
         "piezas": "1500",
         "precio": "$1490",
         "medidas": "84 cm x 59 cm",
-        "imgSrc": "img/prod6.jpg",
+        "imgSrc": "img/prod6.png",
         "tema": "Arte"
     },
     {
@@ -54,7 +54,7 @@
         "piezas": "1000",
         "precio": "$1090",
         "medidas": "70 cm x 50 cm",
-        "imgSrc": "img/prod7.jpg",
+        "imgSrc": "img/prod7.png",
         "tema": "Paisaje"
     },
     {
@@ -62,7 +62,7 @@
         "piezas": "1000",
         "precio": "$1090",
         "medidas": "70 cm x 50 cm",
-        "imgSrc": "img/prod8.jpg",
+        "imgSrc": "img/prod8.png",
         "tema": "Paisaje"
     },
     { 
@@ -70,7 +70,7 @@
         "piezas": "1500",
         "precio": "$1490",
         "medidas": "84 cm x 59 cm",
-        "imgSrc": "img/prod9.jpg",
+        "imgSrc": "img/prod9.png",
         "tema": "Paisaje"
     },
 {
@@ -78,7 +78,7 @@
         "piezas": "1500",
         "precio": "$1490",
         "medidas": "84 cm x 59 cm",
-        "imgSrc": "img/prod10.jpg",
+        "imgSrc": "img/prod10.png",
         "tema": "Paisaje"
     },
     { 
@@ -86,7 +86,7 @@
         "piezas": "2000",
         "precio": "$1990",
         "medidas": "97 cm x 66 cm",
-        "imgSrc": "img/prod11.jpg",
+        "imgSrc": "img/prod11.png",
         "tema": "Paisaje"
     },
     {
@@ -94,7 +94,7 @@
         "piezas": "2000",
         "precio": "$1990",
         "medidas": "97 cm x 66 cm",
-        "imgSrc": "img/prod12.jpg",
+        "imgSrc": "img/prod12.png",
         "tema": "Paisaje"
     },
     {
@@ -102,7 +102,7 @@
         "piezas": "1000",
         "precio": "$1090",
         "medidas": "70 cm x 50 cm",
-        "imgSrc": "img/prod13.jpg",
+        "imgSrc": "img/prod13.png",
         "tema": "Animales"
     },
     {
@@ -110,7 +110,7 @@
         "piezas": "1000",
         "precio": "$1090",
         "medidas": "70 cm x 50 cm",
-        "imgSrc": "img/prod14.jpg",
+        "imgSrc": "img/prod14.png",
         "tema": "Animales"
     },
     { 
@@ -118,7 +118,7 @@
         "piezas": "1500",
         "precio": "$1490",
         "medidas": "84 cm x 59 cm",
-        "imgSrc": "img/prod15.jpg",
+        "imgSrc": "img/prod15.png",
         "tema": "Animales"
     },
     { 
@@ -126,7 +126,7 @@
         "piezas": "1500",
         "precio": "$1490",
         "medidas": "84 cm x 50 cm",
-        "imgSrc": "img/prod16.jpg",
+        "imgSrc": "img/prod16.png",
         "tema": "Animales"
     },
     { 
@@ -134,7 +134,7 @@
         "piezas": "2000",
         "precio": "$1990",
         "medidas": "97 cm x 66 cm",
-        "imgSrc": "img/prod17.jpg",
+        "imgSrc": "img/prod17.png",
         "tema": "Animales"
     },
     { 
@@ -142,7 +142,7 @@
         "piezas": "2000",
         "precio": "$1990",
         "medidas": "97 cm x 66 cm",
-        "imgSrc": "img/prod18.jpg",
+        "imgSrc": "img/prod18.png",
         "tema": "Animales"
     },
     { 
@@ -150,7 +150,7 @@
         "piezas": "60",
         "precio": "$300",
         "medidas": "20 cm x 30 cm",
-        "imgSrc": "img/prod19.jpg",
+        "imgSrc": "img/prod19.png",
         "tema": "Infantil"
     },
     { 
@@ -166,7 +166,7 @@
         "piezas": "60",
         "precio": "$300",
         "medidas": "20 cm x 30 cm",
-        "imgSrc": "img/prod21.jpg",
+        "imgSrc": "img/prod21.png",
         "tema": "Infantil"
     },
     { 
@@ -174,7 +174,7 @@
         "piezas": "25",
         "precio": "$250",
         "medidas": "15 cm x 20 cm",
-        "imgSrc": "img/prod22.jpg",
+        "imgSrc": "img/prod22.png",
         "tema": "Infantil"
     },
     { 
@@ -182,7 +182,7 @@
         "piezas": "100",
         "precio": "$350",
         "medidas": "26 cm x 19 cm",
-        "imgSrc": "img/prod23.jpg",
+        "imgSrc": "img/prod23.png",
         "tema": "Infantil"
     },
     { 
@@ -190,7 +190,7 @@
         "piezas": "25",
         "precio": "$250",
         "medidas": "15 cm x 20 cm",
-        "imgSrc": "img/prod24.jpg",
+        "imgSrc": "img/prod24.png",
         "tema": "Infantil"
     },
     { 
@@ -198,7 +198,7 @@
         "piezas": "1000",
         "precio": "$1090",
         "medidas": "70 cm x 50 cm",
-        "imgSrc": "img/prod25.jpg",
+        "imgSrc": "img/prod25.png",
         "tema": "Espacio exterior"
     },
     { 
@@ -206,7 +206,7 @@
         "piezas": "1000",
         "precio": "$1090",
         "medidas": "70 cm x 50 cm",
-        "imgSrc": "img/prod26.jpg",
+        "imgSrc": "img/prod26.png",
         "tema": "Espacio exterior"
     },
     { 
@@ -214,7 +214,7 @@
         "piezas": "1500",
         "precio": "$1490",
         "medidas": "84 cm x 59 cm",
-        "imgSrc": "img/prod27.jpg",
+        "imgSrc": "img/prod27.png",
         "tema": "Espacio exterior"
     },
     { 
@@ -222,7 +222,7 @@
         "piezas": "1500",
         "precio": "$1490",
         "medidas": "84 cm x 59 cm",
-        "imgSrc": "img/prod28.jpg",
+        "imgSrc": "img/prod28.png",
         "tema": "Espacio exterior"
     },
     { 
@@ -230,7 +230,7 @@
         "piezas": "2000",
         "precio": "$1990",
         "medidas": "97 cm x 66 cm",
-        "imgSrc": "img/prod29.jpg",
+        "imgSrc": "img/prod29.png",
         "tema": "Espacio exterior"
     },
     { 
@@ -238,7 +238,7 @@
         "piezas": "2000",
         "precio": "$1990",
         "medidas": "97 cm x 66 cm",
-        "imgSrc": "img/prod30.jpg",
+        "imgSrc": "img/prod30.png",
         "tema": "Espacio exterior"
     },
     { 
@@ -246,7 +246,7 @@
         "piezas": "1000",
         "precio": "$1090",
         "medidas": "70 cm x 50 cm",
-        "imgSrc": "img/prod31.jpg",
+        "imgSrc": "img/prod31.png",
         "tema": "Frutas"
     },
     { 
@@ -254,7 +254,7 @@
         "piezas": "1000",
         "precio": "$1090",
         "medidas": "70 cm x 50 cm",
-        "imgSrc": "img/prod32.jpg",
+        "imgSrc": "img/prod32.png",
         "tema": "Frutas"
     },
     { 
@@ -262,7 +262,7 @@
         "piezas": "1500",
         "precio": "$1490",
         "medidas": "84 cm x 59 cm",
-        "imgSrc": "img/prod33.jpg",
+        "imgSrc": "img/prod33.png",
         "tema": "Frutas"
     },
     { 
@@ -270,7 +270,7 @@
         "piezas": "1500",
         "precio": "$1490",
         "medidas": "84 cm x 50 cm",
-        "imgSrc": "img/prod34.jpg",
+        "imgSrc": "img/prod34.png",
         "tema": "Frutas"
     },
     { 
@@ -278,7 +278,7 @@
         "piezas": "2000",
         "precio": "$1990",
         "medidas": "97 cm x 66 cm",
-        "imgSrc": "img/prod35.jpg",
+        "imgSrc": "img/prod35.png",
         "tema": "Frutas"
     },
     { 
@@ -286,7 +286,7 @@
         "piezas": "2000",
         "precio": "$1990",
         "medidas": "97 cm x 66 cm",
-        "imgSrc": "img/prod36.jpg",
+        "imgSrc": "img/prod36.png",
         "tema": "Frutas"
     }
 
