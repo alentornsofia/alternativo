@@ -14,6 +14,41 @@ body, html {
   z-index: 100000;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+#filtropiezas{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: large;
+}
+
+.barrita {
+  
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.barrita a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.puzzles{
+  margin-top: 25px;
+  font-family: 'Work Sans', sans-serif;
+color: #BF0404;
+
+}
+
 .tituloindex {
   font-size: 50pt;
   font-weight: bold;
@@ -94,6 +129,97 @@ body, html {
   text-align: center;
 }
 
+
+.buscador{
+  border: none;
+
+}
+
+/* EMPIEZA ACA*/
+
+
+.redfamily {
+	color: red;	
+}
+.search-box,.close-icon,.search-wrapper {
+	position: relative;
+
+}
+
+.search-box {
+	width: 80%;
+	border: 0px solid #ccc;
+  outline: 0;
+  border-radius: 5px;
+}
+
+.close-icon {
+	border:1px solid transparent;
+	background-color: transparent;
+	display: inline-block;
+	vertical-align: middle;
+  outline: 0;
+  cursor: pointer;
+}
+.close-icon:after {
+	content: "X";
+	display: block;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	background-color: #333;
+	z-index:1;
+	right: 35px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	padding: 2px;
+	border-radius: 50%;
+	text-align: center;
+	color: white;
+	font-weight: normal;
+	font-size: 12px;
+	box-shadow: 0 0 2px #E50F0F;
+	cursor: pointer;
+}
+.search-box:not(:valid) ~ .close-icon {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .image {
   position: relative;
   width: 100%;
@@ -108,6 +234,7 @@ body, html {
   font-size: 90pt;
   font-weight: bolder;
   color: white;
+  
   }
   .subtitulo {
     position: absolute;
@@ -146,3 +273,66 @@ body, html {
     top: 0;
     width: 100%;
   }
+
+  .chicos {
+    color: #F2B705;
+    border: none;
+    font-size: 20pt;
+  }
+  .chicos:hover{
+transform: rotate(-4deg);
+
+  }
+  
+
+  .medianos {
+    color: #049dd9;
+    border: none;
+    font-size: 20pt;
+  }
+
+  .grandes{
+    color: #bf0404;
+    border: none;
+    font-size: 20pt;
+  }
+
+.todos {
+ 
+  color: slategrey;
+  border: none;
+  font-size: 20pt;
+}
+
+.fond{position:absolute;padding-top:85px;top:0;left:0; right:0;bottom:0;
+  background-color:#00506b;}
+ 
+ .style_prevu_kit
+ {
+     display:inline-block;
+     border:0;
+   
+     position: relative;
+     -webkit-transition: all 200ms ease-in;
+     -webkit-transform: scale(1); 
+     -ms-transition: all 200ms ease-in;
+     -ms-transform: scale(1); 
+     -moz-transition: all 200ms ease-in;
+     -moz-transform: scale(1);
+     transition: all 200ms ease-in;
+     transform: scale(1);   
+ 
+ }
+ .style_prevu_kit:hover
+ {
+     
+     z-index: 2;
+     -webkit-transition: all 200ms ease-in;
+     -webkit-transform: scale(1.5);
+     -ms-transition: all 200ms ease-in;
+     -ms-transform: scale(1.5);   
+     -moz-transition: all 200ms ease-in;
+     -moz-transform: scale(1.5);
+     transition: all 200ms ease-in;
+     transform: scale(1.2);
+ }

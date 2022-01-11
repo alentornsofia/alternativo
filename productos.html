@@ -8,52 +8,101 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/iconotab.png">
     <title>Productos</title>
+
 </head>
 <body>
 
-    <!--BARRA DE NAVEGACION-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-      
-      <a class="navbar-brand" href="index.html"><img src="img/icono.png" alt="" width="105px"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Productos
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="productos.html">Puzzles</a></li>
-              <li><a class="dropdown-item" href="productos.html">Accesorios</a></li>
-              <li><a class="dropdown-item" href="productos.html">Something else here</a></li>
-              <li><a class="dropdown-item" href="productos.html"><strong>SALE</strong></a></li>
-            </ul>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="presupuesto.html">Presupuesto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacto.html">Nosotros</a>
-          </li>
-
-        
-        <li class="nav-item">
-          <a class="nav-link" href="carrito.html"> <img src="img/carrito.png" alt="" height="20px" class="imagennav"></a>
-        </li>
-        
-      
-      <li class="nav-item">
-        <a class="nav-link" href="carrito.html"> <img src="img/user.png" alt="" height="20px" class="imagennav"></a>
-      </li>
-
-        </ul>
-    </div>
+  <!--BARRA DE NAVEGACION-->
+  <div id="barranavegacion">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+  
+        <a class="navbar-brand" href="index.html"><img src="img/icono.png" alt="" width="105px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="productos.html">Puzzles</a></li>
+                <li><a class="dropdown-item" href="productos.html">Accesorios</a></li>
+                <li><a class="dropdown-item" href="productos.html">Gift cards</a></li>
+                <li><a class="dropdown-item" href="productos.html"><strong>SALE</strong></a></li>
+              </ul>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="presupuesto.html"> <strong class="new">NEW </strong>Puzzles personalizados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Nosotros</a>
+            </li>
+  
+  
+            <li class="nav-item">
+              <a class="nav-link" href="carrito.html"> <img src="img/carrito.png" alt="" height="20px"
+                  class="imagennav"></a>
+            </li>
+  
+  
+            <li class="nav-item">
+              <a class="nav-link" href="carrito.html"> <img src="img/user.png" alt="" height="20px" class="imagennav"></a>
+            </li>
+  
+          </ul>
+        </div>
+      </div>
+    </nav>
   </div>
-</nav>
+
+<div class="container">
+  <div class="col-12" style="height: 100px;"> <h1 class="puzzles">Puzzles</h1><hr></div>
+  
+
+  <!-- FILTRAR POR CANTIDAD DE PIEZAS-->
+
+  <div class="row" id="filtropiezas">
+   
+    <div class="col-md-2 col-sm-4 col-12">
+  
+      <div class="col text-right">
+        <div class="btn-group btn-group-toggle mb-4" data-toggle="buttons">
+    <!-- FILTRAR POR CANTIDAD DE PIEZAS  <input type="text" id="buscador" class="form-control buscador" placeholder="Buscar productos" style="height: 40px;" >
+      <button type="button" class="btn-close" aria-label="Close" id="limpBusc" style="height: 40px;"></button>-->  
+
+      <div class="search-wrapper">
+        <form>
+        <input type="text" name="focus" required class="search-box" placeholder="Buscar productos" maxlength="15">
+          <button class="close-icon" type="reset"></button>
+        </form>
+      </div>
+      
+      </div>  </div>
+      <h5 class="text-center">Filtrá por cantidad de piezas</h5>
+  <button id="todos" class="btn todos">Todos</button><br>
+  <button id="25" class="btn chicos">25</button>
+  <button id="60" class="btn chicos">60</button>
+  <button id="100" class="btn chicos">100</button><br>
+  <button id="1000" class="btn medianos">1000</button>
+  <button id="1500" class="btn medianos">1500</button><br>
+  <button id="2000" class="btn grandes">2000</button>
+</div>
+<div class="col-md-10 col-sm-8 col-12">
+
+<div class="row" id="listaProductos">
+</div>
+</div>
+</div>
+
 <script src="js/bootstrap.min.js"></script>
+<script src="js/productos.js"></script>
+<script src="js/init.js"></script>
 </body>
 </html>
+
