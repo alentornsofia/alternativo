@@ -135,8 +135,6 @@ color: #BF0404;
 
 }
 
-/* EMPIEZA ACA*/
-
 
 .redfamily {
 	color: red;	
@@ -279,10 +277,7 @@ color: #BF0404;
     border: none;
     font-size: 20pt;
   }
-  .chicos:hover{
-transform: rotate(-4deg);
 
-  }
   
 
   .medianos {
